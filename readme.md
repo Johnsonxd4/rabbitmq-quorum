@@ -1,7 +1,7 @@
 # Replicação de filas:
+Este repositorio abrange as direfença entre as formas de replicação de filas, e suas consequencias.
 
 # Filas em cluster, sem replicação configurada:
-
 ## Comportamento:
 * A fila existirá apenas em um nó do cluster
 * Todas as operações podem ser executadas em qualquer nós, visto que o cluster irá rotear tais operações para o lider da fila de forma transparente.
@@ -42,7 +42,7 @@
 * É possivel informar em qual nó a fila lider residirá, informando o parametro `x-queue-master-locator`.
 * Também é possivel informar um numero minimo e máximo de filas lider por nó em seu ar
 
-## Filas Quorrum:
+# Filas Quorum:
 * Implementação baseada no algoritmo de consenso raft. 
 # References:
 * https://raft.github.io (simulação interativo no browser)
