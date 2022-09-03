@@ -1,0 +1,7 @@
+publisher/bin/
+publisher/obj/
+consumer/obj/
+consumer/bin/
+cluster/storage/
+simulations/DockerManager/__pycache/
+simulations/rabbitmq/__pycache/
