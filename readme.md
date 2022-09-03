@@ -1,6 +1,6 @@
 # Replicação de filas:
 Este repositorio abrange as diferenças entre as formas de replicação de filas, e suas consequencias.
-Nos exemplos de código, é explorada o comportamento da biblioteca (EasynetQ)[https://easynetq.com/]
+Nos exemplos de código, é explorada o comportamento da biblioteca [asynetQ](https://easynetq.com/)
 
 # Filas em cluster, sem replicação configurada:
 ## Comportamento:
