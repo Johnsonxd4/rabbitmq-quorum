@@ -1,5 +1,5 @@
 # Replicação de filas:
-Este repositorio abrange as direfença entre as formas de replicação de filas, e suas consequencias.
+Este repositorio abrange as diferenças entre as formas de replicação de filas, e suas consequencias.
 
 # Filas em cluster, sem replicação configurada:
 ## Comportamento:
